@@ -63,7 +63,3 @@ function squareRoot(arrayOfNumbers) {
   return arrayOfNumbers.map((el) => Math.sqrt(el));
 }
 console.log(squareRoot([1, 2, 3]));
-
-const getSquareRoot = (arrayOfNumbers) =>
-  arrayOfNumbers.map((el) => Math.sqrt(el));
-console.log(getSquareRoot([1, 2, 3]));
